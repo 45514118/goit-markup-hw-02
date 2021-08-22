@@ -46,7 +46,8 @@ a {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.nav-menu-link:hover {
+.nav-menu-link:hover,
+.nav-menu-link:focus {
   color: var(--accent-color);
 }
 .current > .nav-menu-link {
@@ -59,7 +60,8 @@ a {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-.contact-link:hover {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color);
 }
 .filter-button {
@@ -69,7 +71,8 @@ a {
   background-color: var(--tertiary-bg-color);
   cursor: pointer;
 }
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
   font-weight: 500;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
