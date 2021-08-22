@@ -11,21 +11,38 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
     <header>
-      <nav>
-        <a href="/">WebStudio</a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+      <nav class="nav-menu">
+        <a href="/" class="logo"
+          >Web<span class="logo-half-header">Studio</span></a
+        >
+        <ul class="nav-menu-list">
+          <li class="nav-menu-list-item current">
+            <a href="./index.html" class="nav-menu-link">Студия</a>
+          </li>
+          <li class="nav-menu-list-item">
+            <a href="./portfolio.html" class="nav-menu-link">Портфолио</a>
+          </li>
+          <li class="nav-menu-list-item">
+            <a href="#" class="nav-menu-link">Контакты</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="header-contacts">
+        <li class="header-contacts-item">
+          <a href="mailto:info@devstudio.com" class="header-contact-link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="header-contacts-item">
+          <a href="tel:+380961111111" class="header-contact-link"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <main>
@@ -140,13 +157,23 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="/">WebStudio</a>
+    <footer class="site-footer">
+      <a href="/" class="logo"
+        >Web<span class="logo-half-footer">Studio</span></a
+      >
       <address>
         <ul>
-          <li>г. Киев, пр-т Леси Украинки, 26</li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
+          <li class="contacts-item">
+            <a href="mailto:info@example.com" class="contact-link"
+              >info@example.com</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a href="tel:+380961111111" class="contact-link"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
