@@ -86,19 +86,12 @@ a {
   line-height: 1.25;
   color: var(--secondary-text-color);
 }
-.site-footer {
-  background-color: var(--secondary-bg-color);
-}
-.address {
-  color: var(--primary-white-color);
-}
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   color: var(--primary-text-color);
 }
-
 .promo {
   background-color: var(--secondary-bg-color);
 }
@@ -139,4 +132,11 @@ a {
 .our-team-card-description {
   line-height: 1.19;
   color: var(--secondary-text-color);
+}
+}
+.site-footer {
+  background-color: var(--secondary-bg-color);
+}
+.address {
+  color: var(--primary-white-color);
 }
