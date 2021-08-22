@@ -139,6 +139,7 @@ a {
 .site-footer {
   background-color: var(--secondary-bg-color);
 }
-.address {
+.footer-contacts {
+  font-style: normal;
   color: var(--primary-white-color);
 }
