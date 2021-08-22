@@ -76,6 +76,7 @@ a {
   cursor: pointer;
 }
 .portfolio-card-title {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2.25px;
   letter-spacing: 0.06em;
@@ -90,4 +91,52 @@ a {
 }
 .address {
   color: var(--primary-white-color);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17;
+  color: var(--primary-text-color);
+}
+
+.promo {
+  background-color: var(--secondary-bg-color);
+}
+.promo-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.promo-button {
+  font-weight: 700;
+  line-height: 1.85;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.about-us-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.about-us-description {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+.our-team {
+  background-color: var(--tertiary-bg-color);
+}
+.our-team-card-title {
+  font-weight: 500;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+.our-team-card-description {
+  line-height: 1.19;
+  color: var(--secondary-text-color);
 }
