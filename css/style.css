@@ -61,6 +61,9 @@ a {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
+.footer-contacts > .contact-link {
+  color: var(--secondary-white-color);
+}
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
@@ -115,7 +118,8 @@ a {
   background-color: var(--accent-color);
   cursor: pointer;
 }
-.promo-button:hover {
+.promo-button:hover,
+.promo-button:focus {
   background-color: var(--accent-button-color);
 }
 .about-us-title {
