@@ -7,6 +7,7 @@
   --primary-white-color: #ffffff;
   --secondary-white-color: rgba(255, 255, 255, 0.6);
   --accent-color: #18a0fb;
+  --accent-button-color: #188ce8;
 }
 body {
   font-family: "Roboto", Arial, sans-serif;
@@ -110,8 +111,12 @@ a {
   font-weight: 700;
   line-height: 1.85;
   letter-spacing: 0.06em;
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
+}
+.promo-button:hover {
+  background-color: var(--accent-button-color);
 }
 .about-us-title {
   font-weight: 700;
