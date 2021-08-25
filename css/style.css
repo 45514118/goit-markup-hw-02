@@ -61,7 +61,7 @@ a {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-.footer-contacts > .contact-link {
+.footer-contacts .contact-link {
   color: var(--secondary-white-color);
 }
 .contact-link:hover,
