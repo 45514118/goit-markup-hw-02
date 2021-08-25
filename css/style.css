@@ -61,11 +61,19 @@ a {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-.footer-contacts .contact-link {
+.footer-contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
   color: var(--secondary-white-color);
 }
 .contact-link:hover,
 .contact-link:focus {
+  color: var(--accent-color);
+}
+.footer-contact-link:hover,
+.footer-contact-link:focus {
   color: var(--accent-color);
 }
 .filter-button {
